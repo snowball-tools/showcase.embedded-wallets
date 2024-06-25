@@ -1,0 +1,111 @@
+
+.main {
+  max-width: 800px;
+  margin: auto;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+}
+
+.logo {
+  display: block;
+  margin: 24px auto;
+  width: 100px;
+}
+
+.input {
+  width: 100%;
+  margin: 0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(216, 219, 227, 1);
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+}
+
+.label {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+}
+
+.prompt {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  text-align: center;
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(43, 47, 51, 1);
+  border-color: rgba(63, 70, 75, 1);
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+}
+
+.smallButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  background-color: #EFEFEF;
+  border-color: rgb(204 204 204);
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+}
+
+.smallButton.active {
+  background-color: hsl(115.72deg 84.7% 91.36%);
+  border-color: rgb(164 233 170);
+  /* color: white; */
+}
+
+.error {
+  color: red;
+}
+
+.chains {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.table {
+  word-break: break-all;
+}
+
+.td {
+  /* From https://qwtel.com/posts/software/the-monospaced-system-ui-css-font-stack/ */
+  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  padding: 10px;
+}
+
+.th {
+  border-bottom: 1px solid #4d4d4d;
+  padding: 10px;
+}

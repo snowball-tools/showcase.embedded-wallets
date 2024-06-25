@@ -1,0 +1,24 @@
+{
+  "name": "example-with-federated-passkeys",
+  "version": "0.1.2",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@snowballtools/js-sdk": "*",
+    "@snowballtools/auth-embedded": "*",
+    "next": "^14.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.3.1",
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "18.2.6",
+    "typescript": "5.1.3"
+  }
+}
