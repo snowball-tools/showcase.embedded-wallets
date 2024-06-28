@@ -1,7 +1,7 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 
-function FederatedPasskeysDemo({ Component, pageProps }: AppProps) {
+function InAppWalletsDemo({ Component, pageProps }: AppProps) {
   return (
     <div>
       <Head>
@@ -12,4 +12,4 @@ function FederatedPasskeysDemo({ Component, pageProps }: AppProps) {
   )
 }
 
-export default FederatedPasskeysDemo
+export default InAppWalletsDemo

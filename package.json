@@ -1,9 +1,10 @@
 {
-  "name": "example-with-federated-passkeys",
+  "name": "example-in-app-wallets",
   "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "build-showcase": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit"
   },

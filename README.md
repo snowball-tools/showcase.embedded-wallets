@@ -1,6 +1,6 @@
-# Example: Snowball Embedded Wallets
+# Example: Snowball In-App Wallets
 
-This example shows how to easily create embedded wallets using Snowball.
+This example shows how to easily create in-app wallets using Snowball.
 
 ## Getting started
 
@@ -13,7 +13,7 @@ git submodule update --init
 npm install
 npm run build
 
-cd app-showcase/showcase.embedded-wallets
+cd app-showcase/showcase.in-app-wallets
 cp .env.local.example .env.local
 # Fill out the values in .env.local
 # Then start your app with:
