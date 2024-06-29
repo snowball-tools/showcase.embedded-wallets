@@ -1,8 +1,8 @@
-
 .main {
   max-width: 800px;
   margin: auto;
-  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+    sans-serif;
 }
 
 .logo {
@@ -19,15 +19,18 @@
   border-width: 1px;
   border-style: solid;
   border-color: rgba(216, 219, 227, 1);
-  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+    sans-serif;
 }
 
 .label {
-  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+    sans-serif;
 }
 
 .prompt {
-  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+    sans-serif;
   text-align: center;
 }
 
@@ -51,7 +54,8 @@
   color: white;
   background-color: rgba(43, 47, 51, 1);
   border-color: rgba(63, 70, 75, 1);
-  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+    sans-serif;
 }
 
 .smallButton {
@@ -64,9 +68,10 @@
   border-width: 1px;
   border-style: solid;
   cursor: pointer;
-  background-color: #EFEFEF;
+  background-color: #efefef;
   border-color: rgb(204 204 204);
-  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+    sans-serif;
 }
 
 .smallButton.active {

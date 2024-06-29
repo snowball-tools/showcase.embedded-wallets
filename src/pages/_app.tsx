@@ -1,5 +1,5 @@
-import { AppProps } from 'next/app'
-import Head from 'next/head'
+import { AppProps } from "next/app";
+import Head from "next/head";
 
 function InAppWalletsDemo({ Component, pageProps }: AppProps) {
   return (
@@ -9,7 +9,7 @@ function InAppWalletsDemo({ Component, pageProps }: AppProps) {
       </Head>
       <Component {...pageProps} />
     </div>
-  )
+  );
 }
 
-export default InAppWalletsDemo
+export default InAppWalletsDemo;
