@@ -1,22 +1,24 @@
 # Example: Snowball In-App Wallets
 
-This example shows how to easily create in-app wallets using Snowball.
+This example shows how to easily create in-app wallets using Snowball SDK.
 
 ## Getting started
 
 Make sure you have `node` installed locally; we recommend using Node v18+.
 
-```bash
-git clone https://github.com/snowball-tools/js-sdk
-cd js-sdk
-git submodule update --init
+```zsh
 npm install
-npm run build
+```
 
-cd app-showcase/showcase.in-app-wallets
-cp .env.local.example .env.local
-# Fill out the values in .env.local
-# Then start your app with:
+## Environment variables
+
+```zsh
+cp .env.local.example .env.local # Fill out the values in .env.local
+```
+
+## Development
+
+```zsh
 npm run dev
 ```
 
