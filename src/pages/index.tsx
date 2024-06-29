@@ -56,7 +56,6 @@ export default function Home() {
       to: to as `0x${string}`,
       value: parseEther(amount),
     })
-    console.log('sendEth', res)
   }
 
   const walletTable = (
@@ -96,7 +95,13 @@ export default function Home() {
         ))}
       </div>
 
-      {passkeyAuth.state.name === 'init' && (
+      {passkeyAuth.state.name === 'initializing' && (
+        <div className={styles.base}>
+          <h2 className={styles.prompt}>Loading...</h2>
+        </div>
+      )}
+
+      {passkeyAuth.state.name === 'no-session' && (
         <div className={styles.base}>
           <h2 className={styles.prompt}>Create your account:</h2>
           <form className={styles.form} onSubmit={newUserForm.handleSubmit(submitEmail)}>
@@ -173,6 +178,18 @@ export default function Home() {
             </h2>
             {walletTable}
           </div>
+
+          <div className={styles.logoutButton} style={{ padding: '20px 0' }}>
+            <button
+              className={styles.button}
+              onClick={() => {
+                passkeyAuth.logout()
+              }}
+            >
+              Sign Out
+            </button>
+          </div>
+
           <form className={styles.base} onSubmit={sendEthForm.handleSubmit(sendEth)}>
             <h2 className={styles.prompt}>Send ETH</h2>
             <div>

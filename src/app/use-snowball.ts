@@ -8,12 +8,14 @@ export const snowball = Snowball.withAuth({
 }).create({
   apiKey: process.env.NEXT_PUBLIC_SNOWBALL_API_KEY!,
   initialChain: SnowballChain.sepolia,
+  ssrMode: true,
 })
 
 export function useSnowball() {
   const [state, setState] = useState(100) // Value doesn't matter
 
   useEffect(() => {
+    snowball.initUserSessions()
     // Subscribe and directly return the unsubscribe function
     return snowball.subscribe(() => setState(state + 1))
   }, [state])

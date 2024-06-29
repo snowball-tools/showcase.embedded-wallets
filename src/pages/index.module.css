@@ -93,6 +93,11 @@
   gap: 10px;
 }
 
+.logoutButton {
+  display: flex;
+  justify-content: center;
+}
+
 .table {
   word-break: break-all;
 }
